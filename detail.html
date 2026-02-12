@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colocal "The Cacao Artisans" - EatZone</title>
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Metropolis:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold fs-2 text-dark" href="index.html">EatZone</a>
+            <!-- Search Bar in Navbar -->
+            <div class="d-none d-md-flex align-items-center bg-white border rounded-3 ms-4 px-2 py-1 shadow-sm"
+                style="width: 400px;">
+                <div class="d-flex align-items-center border-end px-2">
+                    <i class="fa-solid fa-location-dot text-danger me-2"></i>
+                    <input type="text" class="form-control border-0 shadow-none p-0" placeholder="New Delhi"
+                        style="font-size: 0.9rem;">
+                    <i class="fa-solid fa-caret-down text-secondary ms-2 small"></i>
+                </div>
+                <div class="flex-grow-1 px-2 d-flex align-items-center">
+                    <i class="fa-solid fa-magnifying-glass text-secondary me-2"></i>
+                    <input type="text" class="form-control border-0 shadow-none p-0" placeholder="Search..."
+                        style="font-size: 0.9rem;">
+                </div>
+            </div>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav align-items-center">
+                    <li class="nav-item me-3">
+                        <a class="nav-link fs-5 text-dark" href="login.html">Log in</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5 text-dark" href="signup.html">Sign up</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Gallery Section -->
+    <section class="bg-dark pb-2">
+        <div class="container-fluid p-0">
+            <div class="row g-1">
+                <div class="col-md-8">
+                    <div class="gallery-item overflow-hidden" style="height: 1200px;">
+                        <img src="images/mainimage1i.jpg"
+                            class="w-100 h-100 object-fit-cover hover-zoom" alt="Main Image">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="row g-1 h-100">
+                        <div class="col-12 h-50">
+                            <div class="gallery-item overflow-hidden h-100">
+                                <img src="images/interiorimage.jpg"
+                                    class="w-100 h-100 object-fit-cover hover-zoom" alt="Interior">
+                            </div>
+                        </div>
+                        <div class="col-12 h-50">
+                            <div class="gallery-item overflow-hidden h-100 position-relative">
+                                <img src="images/food1.jpg"
+                                    class="w-100 h-100 object-fit-cover hover-zoom" alt="Food">
+                                <div
+                                    class="overlay position-absolute w-100 h-100 top-0 start-0 d-flex align-items-center justify-content-center bg-dark bg-opacity-50">
+                                    <span class="text-white fw-bold fs-5">View Gallery</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Restaurant Header -->
+    <section class="container py-4 sticky-info-bar">
+        <div class="d-flex justify-content-between align-items-start">
+            <div>
+                <h1 class="fw-bold mb-1">Colocal "The Cacao Artisans"</h1>
+                <p class="text-muted mb-1">Cafe, Desserts, Beverages</p>
+                <p class="text-muted small">Dhan Mill Compound, Chhatarpur, New Delhi</p>
+                <div class="d-flex gap-2 text-secondary small">
+                    <span class="text-warning fw-bold">Open now</span>
+                    <span>•</span>
+                    <span>11am – 11pm (Today)</span>
+                </div>
+            </div>
+            <div class="d-flex gap-3">
+                <div class="rating-box text-center">
+                    <div class="bg-success text-white px-2 py-1 rounded-3 fw-bold mb-1">4.5 <i
+                            class="fa-solid fa-star small"></i></div>
+                    <p class="text-muted small mb-0">1,245 reviews</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="d-flex gap-3 mt-3">
+            <button class="btn btn-outline-secondary btn-sm px-3"><i
+                    class="fa-solid fa-diamond-turn-right text-danger me-1"></i> Direction</button>
+            <button class="btn btn-outline-secondary btn-sm px-3"><i
+                    class="fa-regular fa-bookmark text-danger me-1"></i> Bookmark</button>
+            <button class="btn btn-outline-secondary btn-sm px-3"><i class="fa-solid fa-share text-danger me-1"></i>
+                Share</button>
+        </div>
+    </section>
+
+    <!-- Detailed Content -->
+    <section class="container py-4">
+        <div class="row">
+            <div class="col-lg-8">
+                <!-- Tabs -->
+                <ul class="nav nav-tabs mb-4">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Overview</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Order Online</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Reviews</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Photos</a>
+                    </li>
+                </ul>
+
+                <!-- Menu Section -->
+                <div class="menu-container">
+                    <h4 class="fw-bold mb-3">Recommended</h4>
+
+                    <!-- Menu Item 1 -->
+                    <div class="d-flex justify-content-between align-items-start mb-4 pb-4 border-bottom">
+                        <div class="d-flex gap-3">
+                            <div class="menu-img rounded-3 overflow-hidden" style="width: 120px; height: 120px;">
+                                <img src="images/hot choclate.jpg"
+                                    class="w-100 h-100 object-fit-cover" alt="Hot Chocolate">
+                            </div>
+                            <div>
+                                <h5 class="fw-bold fs-6 mb-1">Hot Chocolate</h5>
+                                <div class="text-success small mb-1"><i class="fa-solid fa-star"></i> Bestseller</div>
+                                <p class="text-muted small mb-1">₹325</p>
+                                <p class="text-muted small mb-0 text-truncate" style="max-width: 300px;">Rich and creamy
+                                    classic hot chocolate.</p>
+                            </div>
+                        </div>
+                        <div class="position-relative" style="width: 100px;">
+                            <button
+                                class="btn btn-outline-danger bg-white position-absolute top-50 start-50 translate-middle shadow-sm px-4 add-btn">ADD</button>
+                        </div>
+                    </div>
+
+                    <!-- Menu Item 2 -->
+                    <div class="d-flex justify-content-between align-items-start mb-4 pb-4 border-bottom">
+                        <div class="d-flex gap-3">
+                            <div class="menu-img rounded-3 overflow-hidden" style="width: 120px; height: 120px;">
+                                <img src="https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80"
+                                    class="w-100 h-100 object-fit-cover" alt="Chicken Zucchini Pasta">
+                            </div>
+                            <div>
+                                <h5 class="fw-bold fs-6 mb-1">Chicken Zucchini Pasta</h5>
+                                <div class="text-success small mb-1"><i class="fa-solid fa-star"></i> Must Try</div>
+                                <p class="text-muted small mb-1">₹595</p>
+                                <p class="text-muted small mb-0 text-truncate" style="max-width: 300px;">Experience the
+                                    perfect blend of zucchini noodles and grilled chicken.</p>
+                            </div>
+                        </div>
+                        <div class="position-relative" style="width: 100px;">
+                            <button
+                                class="btn btn-outline-danger bg-white position-absolute top-50 start-50 translate-middle shadow-sm px-4 add-btn">ADD</button>
+                        </div>
+                    </div>
+
+                    <!-- Menu Item 3 -->
+                    <div class="d-flex justify-content-between align-items-start mb-4 pb-4 border-bottom">
+                        <div class="d-flex gap-3">
+                            <div class="menu-img rounded-3 overflow-hidden" style="width: 120px; height: 120px;">
+                                <img src="https://images.unsplash.com/photo-1551024709-8f23befc6f87?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80"
+                                    class="w-100 h-100 object-fit-cover" alt="Chicken Wings">
+                            </div>
+                            <div>
+                                <h5 class="fw-bold fs-6 mb-1">Spicy Chicken Wings</h5>
+                                <div class="text-danger small mb-1"><i class="fa-solid fa-fire"></i> Spicy</div>
+                                <p class="text-muted small mb-1">₹450</p>
+                                <p class="text-muted small mb-0 text-truncate" style="max-width: 300px;">Crispy wings
+                                    tossed in habanero sauce.</p>
+                            </div>
+                        </div>
+                        <div class="position-relative" style="width: 100px;">
+                            <button
+                                class="btn btn-outline-danger bg-white position-absolute top-50 start-50 translate-middle shadow-sm px-4 add-btn">ADD</button>
+                        </div>
+                    </div>
+
+                    <!-- Menu Item 4 -->
+                    <div class="d-flex justify-content-between align-items-start mb-4 pb-4 border-bottom">
+                        <div class="d-flex gap-3">
+                            <div class="menu-img rounded-3 overflow-hidden" style="width: 120px; height: 120px;">
+                                <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80"
+                                    class="w-100 h-100 object-fit-cover" alt="Pizza">
+                            </div>
+                            <div>
+                                <h5 class="fw-bold fs-6 mb-1">Margherita Pizza</h5>
+                                <div class="text-success small mb-1"><i class="fa-solid fa-leaf"></i> Veg</div>
+                                <p class="text-muted small mb-1">₹395</p>
+                                <p class="text-muted small mb-0 text-truncate" style="max-width: 300px;">Classic cheese
+                                    pizza with fresh basil.</p>
+                            </div>
+                        </div>
+                        <div class="position-relative" style="width: 100px;">
+                            <button
+                                class="btn btn-outline-danger bg-white position-absolute top-50 start-50 translate-middle shadow-sm px-4 add-btn">ADD</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sticky Cart Sidebar -->
+            <div class="col-lg-4 d-none d-lg-block">
+                <div class="sticky-top" style="top: 100px;">
+                    <div class="card border-0 shadow-sm rounded-4 text-center p-5">
+                        <img src="images/empty cart.png"
+                            class="img-fluid mb-3" width="200" alt="Empty Cart">
+                        <h5 class="fw-bold mb-2">Cart is empty</h5>
+                        <p class="text-muted small">Good food is always cooking! Go ahead, order some yummy items from
+                            the menu.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Preview -->
+    <footer class="bg-light py-5 mt-5">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <h2 class="fw-bold mb-0">EatZone</h2>
+                <div>
+                    <button class="btn btn-outline-secondary btn-sm me-2">India</button>
+                    <button class="btn btn-outline-secondary btn-sm">English</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <h6 class="fw-bold text-uppercase small mb-3">About EatZone</h6>
+                    <ul class="list-unstyled small text-muted">
+                        <li class="mb-2">Who We Are</li>
+                        <li class="mb-2">Blog</li>
+                        <li class="mb-2">Work With Us</li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h6 class="fw-bold text-uppercase small mb-3">Zomaverse</h6>
+                    <ul class="list-unstyled small text-muted">
+                        <li class="mb-2">EatZone</li>
+                        <li class="mb-2">Blinkit</li>
+                        <li class="mb-2">Feeding India</li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h6 class="fw-bold text-uppercase small mb-3">For Restaurants</h6>
+                    <ul class="list-unstyled small text-muted">
+                        <li class="mb-2">Partner With Us</li>
+                        <li class="mb-2">Apps For You</li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h6 class="fw-bold text-uppercase small mb-3">Learn More</h6>
+                    <ul class="list-unstyled small text-muted">
+                        <li class="mb-2">Privacy</li>
+                        <li class="mb-2">Security</li>
+                        <li class="mb-2">Terms</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
