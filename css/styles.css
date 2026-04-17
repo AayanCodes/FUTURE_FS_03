@@ -5,7 +5,7 @@
     --text-secondary: #363636;
     --text-muted: #828282;
     --bg-light: #F8F8F8;
-    --shadow-soft: 0 4px 10px rgba(0, 0, 0, 0.1);
+    --shadow-soft: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 body {
